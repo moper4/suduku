@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.*?>
+<?import suduku.v.*?>
+<VBox id="root-vbox" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="suduku.c.RootViewController">
+    <StackPane id="stack-pane">
+        <Label text="%msg"/>
+    </StackPane>
+    <StackPane VBox.vgrow="SOMETIMES">
+        <GridPane id="button-pane" gridLinesVisible="true" maxHeight="-Infinity" maxWidth="-Infinity">
+            <columnConstraints>
+                <ColumnConstraints/>
+                <ColumnConstraints/>
+                <ColumnConstraints/>
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints/>
+                <RowConstraints/>
+                <RowConstraints/>
+            </rowConstraints>
+            <TilePane id="tile-pane" prefColumns="3" prefRows="3">
+                <NumButton fx:id="b00"/>
+                <NumButton fx:id="b01"/>
+                <NumButton fx:id="b02"/>
+                <NumButton fx:id="b10"/>
+                <NumButton fx:id="b11"/>
+                <NumButton fx:id="b12"/>
+                <NumButton fx:id="b20"/>
+                <NumButton fx:id="b21"/>
+                <NumButton fx:id="b22"/>
+            </TilePane>
+            <TilePane id="tile-pane" prefColumns="3" prefRows="3" GridPane.columnIndex="1">
+                <NumButton fx:id="b03"/>
+                <NumButton fx:id="b04"/>
+                <NumButton fx:id="b05"/>
+                <NumButton fx:id="b13"/>
+                <NumButton fx:id="b14"/>
+                <NumButton fx:id="b15"/>
+                <NumButton fx:id="b23"/>
+                <NumButton fx:id="b24"/>
+                <NumButton fx:id="b25"/>
+            </TilePane>
+            <TilePane id="tile-pane" prefColumns="3" prefRows="3" GridPane.columnIndex="2">
+                <NumButton fx:id="b06"/>
+                <NumButton fx:id="b07"/>
+                <NumButton fx:id="b08"/>
+                <NumButton fx:id="b16"/>
+                <NumButton fx:id="b17"/>
+                <NumButton fx:id="b18"/>
+                <NumButton fx:id="b26"/>
+                <NumButton fx:id="b27"/>
+                <NumButton fx:id="b28"/>
+            </TilePane>
+
+            <TilePane id="tile-pane" prefColumns="3" prefRows="3" GridPane.rowIndex="1">
+                <NumButton fx:id="b30"/>
+                <NumButton fx:id="b31"/>
+                <NumButton fx:id="b32"/>
+                <NumButton fx:id="b40"/>
+                <NumButton fx:id="b41"/>
+                <NumButton fx:id="b42"/>
+                <NumButton fx:id="b50"/>
+                <NumButton fx:id="b51"/>
+                <NumButton fx:id="b52"/>
+            </TilePane>
+            <TilePane id="tile-pane" prefColumns="3" prefRows="3" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                <NumButton fx:id="b33"/>
+                <NumButton fx:id="b34"/>
+                <NumButton fx:id="b35"/>
+                <NumButton fx:id="b43"/>
+                <NumButton fx:id="b44"/>
+                <NumButton fx:id="b45"/>
+                <NumButton fx:id="b53"/>
+                <NumButton fx:id="b54"/>
+                <NumButton fx:id="b55"/>
+            </TilePane>
+            <TilePane id="tile-pane" prefColumns="3" prefRows="3" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                <NumButton fx:id="b36"/>
+                <NumButton fx:id="b37"/>
+                <NumButton fx:id="b38"/>
+                <NumButton fx:id="b46"/>
+                <NumButton fx:id="b47"/>
+                <NumButton fx:id="b48"/>
+                <NumButton fx:id="b56"/>
+                <NumButton fx:id="b57"/>
+                <NumButton fx:id="b58"/>
+            </TilePane>
+
+            <TilePane id="tile-pane" prefColumns="3" prefRows="3" GridPane.rowIndex="2">
+                <NumButton fx:id="b60"/>
+                <NumButton fx:id="b61"/>
+                <NumButton fx:id="b62"/>
+                <NumButton fx:id="b70"/>
+                <NumButton fx:id="b71"/>
+                <NumButton fx:id="b72"/>
+                <NumButton fx:id="b80"/>
+                <NumButton fx:id="b81"/>
+                <NumButton fx:id="b82"/>
+            </TilePane>
+            <TilePane id="tile-pane" prefColumns="3" prefRows="3" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                <NumButton fx:id="b63"/>
+                <NumButton fx:id="b64"/>
+                <NumButton fx:id="b65"/>
+                <NumButton fx:id="b73"/>
+                <NumButton fx:id="b74"/>
+                <NumButton fx:id="b75"/>
+                <NumButton fx:id="b83"/>
+                <NumButton fx:id="b84"/>
+                <NumButton fx:id="b85"/>
+            </TilePane>
+            <TilePane id="tile-pane" prefColumns="3" prefRows="3" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                <NumButton fx:id="b66"/>
+                <NumButton fx:id="b67"/>
+                <NumButton fx:id="b68"/>
+                <NumButton fx:id="b76"/>
+                <NumButton fx:id="b77"/>
+                <NumButton fx:id="b78"/>
+                <NumButton fx:id="b86"/>
+                <NumButton fx:id="b87"/>
+                <NumButton fx:id="b88"/>
+            </TilePane>
+        </GridPane>
+    </StackPane>
+    <HBox id="hbox">
+        <Button fx:id="calcBtn" defaultButton="true" mnemonicParsing="false" text="%calc"/>
+        <Button fx:id="clearBtn" cancelButton="true" mnemonicParsing="false" text="%clear"/>
+    </HBox>
+</VBox>

@@ -1,0 +1,70 @@
+#root-vbox{
+    -fx-pref-width: 30em;
+    -fx-pref-height: 50em;
+}
+
+#root-vbox > #stack-pane{
+    -fx-padding: 3em;
+}
+
+#root-vbox > #stack-pane > .label{
+    -fx-font-size: 1.5em;
+}
+
+#gridPane{
+    -fx-pref-width: 25em;
+    -fx-pref-height: 25em;
+}
+
+#hbox{
+    -fx-padding: 3em;
+    -fx-spacing: 1.666667em;
+    -fx-alignment: center;
+}
+
+#hbox > .button{
+    -fx-pref-width: 6.666667em;
+    -fx-pref-height: 2em;
+}
+
+#tile-pane{
+    -fx-vgap: 0.333333em;
+    -fx-hgap: 0.333333em;
+    -fx-spacing: 0.333333em;
+    -fx-padding: 0.333333em;
+    -fx-pref-tile-width: 2.333333em;
+    -fx-pref-tile-height: 2.333333em;
+}
+
+#menu-pane{
+    -fx-vgap: 0.333333em;
+    -fx-hgap: 0.333333em;
+    -fx-padding: 0.25em;
+    -fx-pref-width: 7.166667em;
+    -fx-pref-height: 9.5em;
+}
+
+#button-pane .button, #menu-pane .button{
+    -fx-background-color: white;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0px;
+    -fx-padding: 0.333333em 0.333333em 0.333333em 0.333333em;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+    -fx-max-width: 100em;/* ~ max double*/
+    -fx-max-height: 100em;/* ~ max double*/
+}
+
+#button-pane .button:hover, #menu-pane .button:hover{
+    -fx-background-color: -fx-hover-base;
+}
+
+.context-menu {
+    -fx-background-insets: 0;
+    -fx-padding: 0em 0em 0em 0em;
+}
+
+.menu-item {
+    -fx-background-color: -fx-base;
+    -fx-padding: 0em 0em 0em 0em;
+}

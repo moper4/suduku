@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<fx:root type="GridPane" id="menu-pane" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES"/>
+        <ColumnConstraints hgrow="SOMETIMES"/>
+        <ColumnConstraints hgrow="SOMETIMES"/>
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints vgrow="SOMETIMES"/>
+        <RowConstraints vgrow="SOMETIMES"/>
+        <RowConstraints vgrow="SOMETIMES"/>
+        <RowConstraints vgrow="SOMETIMES"/>
+    </rowConstraints>
+    <Button fx:id="b0" text="%clear" GridPane.columnSpan="3" GridPane.rowIndex="3"/>
+    <Button fx:id="b1" text="1" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+    <Button fx:id="b2" text="2" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+    <Button fx:id="b3" text="3" GridPane.columnIndex="2" GridPane.rowIndex="0"/>
+    <Button fx:id="b4" text="4" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+    <Button fx:id="b5" text="5" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+    <Button fx:id="b6" text="6" GridPane.columnIndex="2" GridPane.rowIndex="1"/>
+    <Button fx:id="b7" text="7" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+    <Button fx:id="b8" text="8" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+    <Button fx:id="b9" text="9" GridPane.columnIndex="2" GridPane.rowIndex="2"/>
+</fx:root>

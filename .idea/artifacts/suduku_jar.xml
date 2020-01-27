@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="suduku:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/suduku_jar</output-path>
+    <root id="root">
+      <element id="archive" name="suduku.jar">
+        <element id="module-output" name="suduku" />
+      </element>
+    </root>
+  </artifact>
+</component>
